@@ -1,4 +1,4 @@
-package org.ebook.dtos;
+package org.ebook.dtos.request;
 
 import lombok.Data;
 import org.ebook.data.model.Book;

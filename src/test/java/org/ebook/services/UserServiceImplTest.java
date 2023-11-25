@@ -5,16 +5,14 @@ import org.ebook.data.model.User;
 import org.ebook.data.repository.BookRepository;
 import org.ebook.data.repository.LibrarianRepository;
 import org.ebook.data.repository.UserRepository;
-import org.ebook.dtos.*;
+import org.ebook.dtos.request.*;
 import org.ebook.exception.IncorrectCredentialsException;
 import org.ebook.exception.UserAlreadyExists;
-import org.ebook.exception.UserCannotLogInException;
 import org.ebook.exception.UserNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.web.util.pattern.PathPattern;
 
 import static org.hamcrest.Matchers.*;
 

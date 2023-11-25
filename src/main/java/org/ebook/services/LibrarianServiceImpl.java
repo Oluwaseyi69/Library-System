@@ -1,14 +1,12 @@
 package org.ebook.services;
 
-import org.ebook.data.model.Book;
 import org.ebook.data.model.Librarian;
-import org.ebook.data.model.User;
 import org.ebook.data.repository.LibrarianRepository;
-import org.ebook.dtos.*;
+import org.ebook.dtos.request.*;
+import org.ebook.dtos.response.RegisterLibrarianResponse;
 import org.ebook.exception.IncorrectCredentialsException;
 import org.ebook.exception.LibrarianAlreadyExist;
 import org.ebook.exception.LibrarianNotFoundException;
-import org.ebook.exception.UserNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -73,14 +71,14 @@ public class LibrarianServiceImpl implements LibrarianService{
     }
 
     private void findLibrarian(RegisterLibrarianRequest registerLibrarianRequest) {
-        Optional<Librarian>librarian = librarianRepository.findBy(registerLibrarianRequest.getLibrarianName());
+        Optional<Librarian>librarian = librarianRepository.findByLibrarianName(registerLibrarianRequest.getLibrarianName());
         if(librarian.isPresent()){
             throw new LibrarianAlreadyExist("Librarian Already Exist");
         }
     }
 
     private Optional<Librarian> retrieveLibrarian(String username){
-        Optional<Librarian> librarian = librarianRepository.findBy(username);
+        Optional<Librarian> librarian = librarianRepository.findByLibrarianName(username);
         return librarian;
     }
 

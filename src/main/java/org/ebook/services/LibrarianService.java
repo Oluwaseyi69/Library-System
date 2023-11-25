@@ -1,8 +1,8 @@
 package org.ebook.services;
 
-import org.ebook.data.model.Book;
 import org.ebook.data.model.Librarian;
-import org.ebook.dtos.*;
+import org.ebook.dtos.request.*;
+import org.ebook.dtos.response.RegisterLibrarianResponse;
 
 public interface LibrarianService {
 

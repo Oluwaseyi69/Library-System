@@ -3,10 +3,10 @@ package org.ebook.utils;
 import org.ebook.data.model.Book;
 import org.ebook.data.model.BorrowedBook;
 import org.ebook.data.model.User;
-import org.ebook.dtos.AddBookRequest;
-import org.ebook.dtos.BorrowBookRequest;
-import org.ebook.dtos.RegisterUserRequest;
-import org.ebook.dtos.RegisterUserResponse;
+import org.ebook.dtos.request.AddBookRequest;
+import org.ebook.dtos.request.BorrowBookRequest;
+import org.ebook.dtos.request.RegisterUserRequest;
+import org.ebook.dtos.response.RegisterUserResponse;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

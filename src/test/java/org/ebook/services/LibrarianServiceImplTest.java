@@ -5,7 +5,7 @@ import org.ebook.data.repository.BookRepository;
 import org.ebook.data.repository.BorrowedBookRepository;
 import org.ebook.data.repository.LibrarianRepository;
 import org.ebook.data.repository.UserRepository;
-import org.ebook.dtos.*;
+import org.ebook.dtos.request.*;
 import org.ebook.exception.LibrarianAlreadyExist;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -16,6 +16,7 @@ public class Book {
     private int booksAvailable;
     private LocalDate datedAdded = LocalDate.now();
     private LocalDate timeAdded = LocalDate.now();
+    private Long price;
 
 
 

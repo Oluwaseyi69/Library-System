@@ -1,4 +1,4 @@
-package org.ebook.dtos;
+package org.ebook.dtos.response;
 
 import lombok.Data;
 

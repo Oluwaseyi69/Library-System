@@ -1,6 +1,6 @@
 package org.ebook.controller;
 
-import org.ebook.dtos.*;
+import org.ebook.dtos.request.*;
 import org.ebook.services.LibrarianService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -2,10 +2,9 @@ package org.ebook.utils;
 
 import org.ebook.data.model.Book;
 import org.ebook.data.model.Librarian;
-import org.ebook.dtos.AddBookRequest;
-import org.ebook.dtos.FindBookRequest;
-import org.ebook.dtos.RegisterLibrarianRequest;
-import org.ebook.dtos.RegisterLibrarianResponse;
+import org.ebook.dtos.request.FindBookRequest;
+import org.ebook.dtos.request.RegisterLibrarianRequest;
+import org.ebook.dtos.response.RegisterLibrarianResponse;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

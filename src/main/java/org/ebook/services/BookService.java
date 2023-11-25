@@ -1,7 +1,10 @@
 package org.ebook.services;
 
 import org.ebook.data.model.Book;
-import org.ebook.dtos.*;
+import org.ebook.dtos.request.AddBookRequest;
+import org.ebook.dtos.request.BorrowBookRequest;
+import org.ebook.dtos.request.RemoveBookRequest;
+import org.ebook.dtos.request.ReturnBookRequest;
 
 import java.util.List;
 

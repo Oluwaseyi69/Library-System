@@ -1,10 +1,10 @@
 package org.ebook.controller;
 
+import lombok.AllArgsConstructor;
 import org.ebook.data.model.Book;
-import org.ebook.dtos.BorrowBookRequest;
-import org.ebook.dtos.LogInUserRequest;
-import org.ebook.dtos.RegisterUserRequest;
-import org.ebook.dtos.ViewBookRequest;
+import org.ebook.dtos.request.BorrowBookRequest;
+import org.ebook.dtos.request.LogInUserRequest;
+import org.ebook.dtos.request.RegisterUserRequest;
 import org.ebook.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -12,9 +12,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("e-library")
+@CrossOrigin(origins = "http://localhost:5501")
+@RequestMapping("/elibrary")
+@AllArgsConstructor
 public class UserController {
-    @Autowired
+
     private UserService userService;
 
     @PostMapping("/registerUser")

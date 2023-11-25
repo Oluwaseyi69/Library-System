@@ -3,7 +3,10 @@ package org.ebook.services;
 import org.ebook.data.model.Book;
 import org.ebook.data.model.BorrowedBook;
 import org.ebook.data.model.User;
-import org.ebook.dtos.*;
+import org.ebook.dtos.request.BorrowBookRequest;
+import org.ebook.dtos.request.LogInUserRequest;
+import org.ebook.dtos.request.RegisterUserRequest;
+import org.ebook.dtos.response.RegisterUserResponse;
 
 import java.util.List;
 

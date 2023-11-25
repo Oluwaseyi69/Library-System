@@ -2,7 +2,10 @@ package org.ebook.services;
 
 import org.ebook.data.model.Book;
 import org.ebook.data.repository.BookRepository;
-import org.ebook.dtos.*;
+import org.ebook.dtos.request.AddBookRequest;
+import org.ebook.dtos.request.BorrowBookRequest;
+import org.ebook.dtos.request.RemoveBookRequest;
+import org.ebook.dtos.request.ReturnBookRequest;
 import org.ebook.exception.BookNotAvailableException;
 import org.ebook.exception.BookNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

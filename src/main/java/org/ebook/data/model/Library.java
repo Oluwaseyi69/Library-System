@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-//@Document("Library")
 public class Library {
     private String book;
     private String user;
