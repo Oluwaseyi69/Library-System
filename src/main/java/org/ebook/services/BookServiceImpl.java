@@ -21,19 +21,7 @@ public class BookServiceImpl implements BookService{
     @Autowired
     private BookRepository bookRepository;
 
-//    @Override
-//    public Book findBook(FindBookRequest findBookRequest) {
-//        Optional<Book>foundBook = bookRepository.
-//                findBookByTitleAndAuthor(findBookRequest.getTitle(), findBookRequest.getAuthor());
-//
-//        if (foundBook.isPresent()) return foundBook.get();
-//        Optional<Book>repeatedBook= recheckRepository(findBookRequest);
-//        return repeatedBook.orElse(null);
-//    }
-//    private Optional<Book> recheckRepository(FindBookRequest findBookRequest){
-//        return bookRepository.findBookByTitleAndAuthor(
-//                findBookRequest.getTitle(), findBookRequest.getAuthor());
-//    }
+
 
     @Override
     public Book findBook(String bookName, String authorName) {

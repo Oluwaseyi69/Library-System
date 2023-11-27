@@ -5,38 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2951d595-b5e4-4e51-b15e-474541c81866" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ebook/config/GlobalCorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/controller/LibrarianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/controller/LibrarianController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/config/GlobalCorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/config/GlobalCorsConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/data/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/data/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/data/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/data/model/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/data/repository/LibrarianRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/data/repository/LibrarianRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/AddBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/AddBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/BorrowBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/BorrowBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/FindBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/FindBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/LogInLibrarianRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/LogInLibrarianRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/LogInUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/LogInUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/RegisterLibrarianRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/RegisterLibrarianRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/RegisterUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/RegisterUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/RemoveBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/RemoveBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/ReturnBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/ReturnBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/ViewBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/request/ViewBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/response/AddBookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/response/AddBookResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/response/RegisterLibrarianResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/response/RegisterLibrarianResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/response/RegisterUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/dtos/response/RegisterUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/services/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/services/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/services/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/services/BorrowedBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/services/BorrowedBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/services/BorrowedBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/services/BorrowedBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/services/LibrarianService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/services/LibrarianService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/services/LibrarianServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/services/LibrarianServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/utils/LibrarianMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/utils/LibrarianMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ebook/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ebook/utils/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ebook/services/LibrarianServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ebook/services/LibrarianServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ebook/services/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ebook/services/UserServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +190,13 @@
       <workItem from="1699766318979" duration="681000" />
       <workItem from="1700774375337" duration="2426000" />
       <workItem from="1700778005035" duration="3273000" />
-      <workItem from="1700856900913" duration="6195000" />
+      <workItem from="1700856900913" duration="10467000" />
+      <workItem from="1700993241405" duration="188000" />
+      <workItem from="1700994206053" duration="604000" />
+      <workItem from="1700995604103" duration="839000" />
+      <workItem from="1701028131429" duration="4880000" />
+      <workItem from="1701071942193" duration="44000" />
+      <workItem from="1701105438798" duration="5337000" />
     </task>
     <servers />
   </component>
